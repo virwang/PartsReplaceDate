@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Main-Class: com.soetek.ticket.PartsReplaceDateJob.TimelyBatch
+Class-Path: guava-14.0.1.jar groovy-testng-3.0.4.jar gossip-slf4j-1.8.ja
+ r junit-platform-engine-1.6.2.jar junit-platform-launcher-1.6.2.jar ant
+ -launcher-1.10.8.jar ant-1.10.7.jar ant-antlr-1.10.7.jar ant-junit-1.10
+ .7.jar ant-launcher-1.10.7.jar bsf-2.4.0.jar commons-cli-1.4.jar common
+ s-logging-1.2.jar gpars-1.2.1.jar groovy-3.0.2.jar groovy-ant-3.0.2.jar
+  groovy-astbuilder-3.0.2.jar groovy-bsf-3.0.2.jar groovy-cli-commons-3.
+ 0.2.jar groovy-cli-picocli-3.0.2.jar groovy-console-3.0.2.jar groovy-da
+ tetime-3.0.2.jar groovy-dateutil-3.0.2.jar groovy-docgenerator-3.0.2.ja
+ r groovy-groovydoc-3.0.2.jar groovy-groovysh-3.0.2.jar groovy-jaxb-3.0.
+ 2.jar groovy-jmx-3.0.2.jar groovy-json-3.0.2.jar groovy-jsr223-3.0.2.ja
+ r groovy-macro-3.0.2.jar groovy-nio-3.0.2.jar groovy-servlet-3.0.2.jar 
+ groovy-sql-3.0.2.jar groovy-swing-3.0.2.jar groovy-templates-3.0.2.jar 
+ groovy-test-3.0.2.jar groovy-test-junit5-3.0.2.jar groovy-testng-3.0.2.
+ jar groovy-xml-3.0.2.jar groovy-yaml-3.0.2.jar hamcrest-core-1.3.jar iv
+ y-2.5.0.jar jackson-annotations-2.10.2.jar jackson-core-2.10.2.jar jack
+ son-databind-2.10.2.jar jackson-dataformat-yaml-2.10.2.jar jansi-1.18.j
+ ar javaparser-core-3.15.13.jar javax.servlet-api-3.0.1.jar jcommander-1
+ .72.jar jline-2.14.6.jar jsp-api-2.0.jar jsr166y-1.7.0.jar junit-4.13.j
+ ar junit-jupiter-api-5.6.0.jar junit-jupiter-engine-5.6.0.jar junit-pla
+ tform-commons-1.6.0.jar junit-platform-engine-1.6.0.jar junit-platform-
+ launcher-1.6.0.jar multiverse-core-0.7.0.jar opentest4j-1.2.0.jar org.a
+ bego.treelayout.core-1.0.1.jar qdox-1.12.1.jar snakeyaml-1.24.jar ST4-4
+ .1.jar testng-6.14.3.jar xstream-1.4.11.1.jar groovy-sql-3.0.4.jar groo
+ vy-maven-plugin-2.1.1.jar groovy-nio-3.0.4.jar slf4j-simple-1.7.25.jar 
+ hamcrest-core-1.3.jar mchange-commons-java-0.2.11.jar groovy-ant-3.0.4.
+ jar gossip-core-1.8.jar junit-4.13.jar groovy-macro-3.0.4.jar groovy-jm
+ x-3.0.4.jar groovy-test-3.0.4.jar groovy-templates-3.0.4.jar groovy-swi
+ ng-3.0.4.jar quartz-2.3.0.jar groovy-docgenerator-3.0.4.jar groovy-serv
+ let-3.0.4.jar tools.jar picocli-4.3.2.jar groovy-astbuilder-3.0.4.jar a
+ nt-1.10.8.jar ant-antlr-1.10.8.jar commons-text-1.9.jar groovy-3.0.4.ja
+ r opentest4j-1.2.0.jar jline-2.14.6.jar groovy-groovysh-3.0.4.jar junit
+ -platform-commons-1.6.2.jar groovy-test-junit5-3.0.4.jar mssql-jdbc-8.2
+ .2.jre8.jar groovy-xml-3.0.4.jar groovy-console-3.0.4.jar plexus-classw
+ orlds-2.4.2.jar HikariCP-java6-2.3.13.jar qdox-1.12.1.jar c3p0-0.9.5.2.
+ jar slf4j-api-1.7.5.jar plexus-interpolation-1.16.jar groovy-all-2.4.9.
+ jar gmaven-adapter-api-2.1.1.jar commons-lang3-3.11.jar aether-api-0.9.
+ 0.M2.jar groovy-json-3.0.4.jar junit-jupiter-engine-5.6.2.jar groovy-gr
+ oovydoc-3.0.4.jar aether-util-0.9.0.M2.jar gmaven-adapter-impl-2.1.1.ja
+ r groovy-jsr223-3.0.4.jar junit-jupiter-api-5.6.2.jar ant-junit-1.10.8.
+ jar gossip-bootstrap-1.8.jar groovy-datetime-3.0.4.jar groovy-cli-picoc
+ li-3.0.4.jar javaparser-core-3.15.22.jar annotations-13.0.jar
+

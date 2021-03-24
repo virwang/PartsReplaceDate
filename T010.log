@@ -1,0 +1,22 @@
+2021-03-16 09:45:27:285 +0800 [main] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-03-16 09:45:27:290 +0800 [main] INFO org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2021-03-16 09:45:27:309 +0800 [main] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-03-16 09:45:27:310 +0800 [main] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2021-03-16 09:45:27:310 +0800 [main] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-03-16 09:45:27:311 +0800 [main] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-03-16 09:45:27:311 +0800 [main] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2021-03-16 09:45:27:311 +0800 [main] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2021-03-16 09:45:27:312 +0800 [main] INFO org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2021-03-16 09:45:32:725 +0800 [main] INFO com.soetek.ticket.PartsReplaceDateJob.TimelyBatch - 單次執行
+2021-03-16 09:45:34:831 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.PartsReplaceDateJob - [PartsReplaceDateJob]arg0:immediately
+2021-03-16 09:45:34:833 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.PartsReplaceDateJob - [PartsReplaceDateJob]connectionString:jdbc:mysql://192.168.21.53:3306;database=demodb370;user=michael;password=1qaz;encrypt=true;trustServerCertificate=true;loginTimeout=30;
+2021-03-16 09:45:35:155 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.PartsReplaceDateJob - [PartsReplaceDateJob]觸發: 2021-03-16 09:45:34
+2021-03-16 09:45:36:732 +0800 [DefaultQuartzScheduler_Worker-1] ERROR com.soetek.ticket.PartsReplaceDateJob.PartsReplaceDateJob - [PartsReplaceDateJob]發生錯誤
+2021-03-16 09:45:36:734 +0800 [DefaultQuartzScheduler_Worker-1] ERROR com.soetek.ticket.PartsReplaceDateJob.PartsReplaceDateJob - java.sql.SQLException: No suitable driver found for jdbc:mysql://192.168.21.53:3306;database=demodb370;user=michael;password=1qaz;encrypt=true;trustServerCertificate=true;loginTimeout=30;

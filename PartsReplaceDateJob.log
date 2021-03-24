@@ -1,0 +1,25 @@
+2021-03-24 10:30:51:535 +0800 [main] INFO org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2021-03-24 10:30:51:543 +0800 [main] INFO org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: main
+2021-03-24 10:30:51:567 +0800 [main] INFO org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-03-24 10:30:51:567 +0800 [main] INFO org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2021-03-24 10:30:51:569 +0800 [main] INFO org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2021-03-24 10:30:51:570 +0800 [main] INFO org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-03-24 10:30:51:571 +0800 [main] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2021-03-24 10:30:51:571 +0800 [main] INFO org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2021-03-24 10:30:51:571 +0800 [main] INFO org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2021-03-24 10:30:51:586 +0800 [main] INFO com.soetek.ticket.PartsReplaceDateJob.TimelyBatch - 單次執行
+2021-03-24 10:30:51:606 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.PartsReplaceDateJob - [PartsReplaceDateJob]arg0:immediately
+2021-03-24 10:30:51:607 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.PartsReplaceDateJob - [PartsReplaceDateJob]connectionString:jdbc:mysql://192.168.21.53:3306/demodb370?user=michael&password=1qaz&useUnicode=true&characterEncoding=utf8
+2021-03-24 10:30:51:607 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.PartsReplaceDateJob - [PartsReplaceDateJob] user :AUT0001
+2021-03-24 10:30:51:702 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.PartsReplaceDateJob - [PartsReplaceDateJob]觸發: 2021-03-24 10:30:51
+2021-03-24 10:30:52:599 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.LogicProvider - 連線成功
+2021-03-24 10:30:52:779 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.LogicProvider - 連線成功
+2021-03-24 10:30:52:881 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.LogicProvider - 連線成功
+2021-03-24 10:32:10:534 +0800 [DefaultQuartzScheduler_Worker-1] INFO com.soetek.ticket.PartsReplaceDateJob.LogicProvider - 連線成功
